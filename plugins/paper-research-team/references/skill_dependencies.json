@@ -1,0 +1,129 @@
+{
+  "team": "paper-research-team",
+  "team_display_name": "论文写作与循证医学团",
+  "binding_mode": "runtime-by-name",
+  "generated": "2026-09-08",
+  "total_skills": 90,
+  "members": {
+    "paper-topic-designer": {
+      "stage": "选题与基金策划师",
+      "skill_count": 14,
+      "skills": [
+        "aim-and-hypothesis-designer",
+        "basic-research-design",
+        "basic-research-design-extractor",
+        "scientific-problem-selection",
+        "scientific-brainstorming",
+        "grant-proposal-assistant",
+        "research-proposal-generator",
+        "nsfc-grant-writer",
+        "irb-application-assistant",
+        "prospero-registration-helper",
+        "methodology-extractor",
+        "protocol-standardization",
+        "inclusion-exclusion-criteria-builder",
+        "scientific-critical-thinking"
+      ]
+    },
+    "paper-literature-scout": {
+      "stage": "文献检索专员",
+      "skill_count": 24,
+      "skills": [
+        "pubmed-search",
+        "pubmed-database",
+        "arxiv-search",
+        "biorxiv-database",
+        "openalex-database",
+        "literature-search",
+        "lit-synthesizer",
+        "literature-review",
+        "find-paper-references",
+        "reference-retrieval-skill",
+        "bear-support",
+        "bear-counter",
+        "bear-review",
+        "bear-propose",
+        "bear-map",
+        "bear-trace",
+        "nature-ref-verifier",
+        "retraction-watcher",
+        "citation-management",
+        "citation-formatter",
+        "bib-formatter",
+        "format-references-zotero",
+        "format-references-endnote",
+        "pyzotero"
+      ]
+    },
+    "paper-writer": {
+      "stage": "学术写作工程师",
+      "skill_count": 20,
+      "skills": [
+        "academic-paper",
+        "academic-paper-reviewer",
+        "academic-pipeline",
+        "scientific-writing",
+        "manuscript-peer-review",
+        "discussion-section-architect",
+        "method-writing",
+        "cover-letter-generator",
+        "rebuttal-letter-strategist",
+        "response-letter",
+        "blind-review-sanitizer",
+        "text-format-organizer",
+        "content-proofreading",
+        "authorship-credit-gen",
+        "bioinfo_analysis_plan",
+        "hypothesis-generation",
+        "paper-analyzer",
+        "academic-norm-review",
+        "reproducibility-check",
+        "study-limitations-drafter"
+      ]
+    },
+    "paper-evidence-synthesizer": {
+      "stage": "循证合成分析师",
+      "skill_count": 17,
+      "skills": [
+        "meta-analysis",
+        "meta-analysis-methods-generator",
+        "meta-protocol-writer",
+        "meta-manuscript-generator",
+        "meta-screening-fulltext",
+        "meta-abstract-screener",
+        "systematic-review",
+        "systematic-review-screener",
+        "meta-results-forest-plot-analyzer",
+        "meta-results-funnel-plot-generator",
+        "meta-results-risk-of-bias",
+        "meta-results-sensitivity-analysis",
+        "case-control-study-planner",
+        "Case-control-study-quality-assessment-nos",
+        "cohort-study-quality-assessment-nos",
+        "rct-bias-assessment-rob2",
+        "diagnostic-study-quality-assessment-quadas-2"
+      ]
+    },
+    "paper-layout-designer": {
+      "stage": "排版与交付工程师",
+      "skill_count": 15,
+      "skills": [
+        "docx",
+        "docx-official",
+        "pptx",
+        "pptx-official",
+        "pdf",
+        "pdf-processing-pro",
+        "chinese-formal-report-docx",
+        "markitdown",
+        "style-rewrite",
+        "table-1-generator",
+        "table-1-generator-advanced",
+        "result-figure-consistencycheck",
+        "word-read-write",
+        "xlsx-docx-chart-embed",
+        "scientific-slides"
+      ]
+    }
+  }
+}

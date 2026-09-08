@@ -1,0 +1,155 @@
+{
+  "name": "paper-research-team",
+  "version": "1.0.0",
+  "description": "Paper writing and evidence-synthesis team: a dispatch lead orchestrates topic design, literature retrieval, manuscript writing, Meta-analysis synthesis, and formatting delivery to produce submission-ready, evidence-based academic manuscripts.",
+  "author": {
+    "name": "易云"
+  },
+  "agents": [
+    "./agents/paper-research-team-team-lead.md",
+    "./agents/paper-topic-designer.md",
+    "./agents/paper-literature-scout.md",
+    "./agents/paper-writer.md",
+    "./agents/paper-evidence-synthesizer.md",
+    "./agents/paper-layout-designer.md"
+  ],
+  "expertType": "team",
+  "agentName": "paper-research-team-team-lead",
+  "teamInfo": {
+    "leadAgent": "paper-research-team-team-lead",
+    "memberAgents": [
+      "paper-topic-designer",
+      "paper-literature-scout",
+      "paper-writer",
+      "paper-evidence-synthesizer",
+      "paper-layout-designer"
+    ]
+  },
+  "displayName": {
+    "en": "Paper Writing & Evidence-based Medicine Team",
+    "zh": "论文写作与循证医学团"
+  },
+  "profession": {
+    "en": "Paper Writing & Evidence-based Medicine Team",
+    "zh": "论文写作与循证医学团"
+  },
+  "displayDescription": {
+    "en": "Paper writing and evidence-synthesis team: a dispatch lead orchestrates topic design, literature retrieval, manuscript writing, Meta-analysis synthesis, and formatting delivery to produce submission-ready, evidence-based academic manuscripts.",
+    "zh": "论文写作与循证医学团：主理人编排选题、文献、撰写、Meta合成与排版五环，产出可投稿循证文稿。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "帮我从选题到投稿规划一篇关于子痫前期标志物的 SCI 论著，并给出基金申请思路",
+    "en": "Plan a SCI paper on preeclampsia biomarkers from topic to submission, with grant ideas"
+  },
+  "plugin": "paper-research-team",
+  "tags": [
+    {
+      "en": "Academic Writing",
+      "zh": "学术写作"
+    },
+    {
+      "en": "Literature Review",
+      "zh": "文献综述"
+    },
+    {
+      "en": "Evidence Synthesis",
+      "zh": "循证合成"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "帮我从选题到投稿规划一篇关于子痫前期标志物的 SCI 论著，并给出基金申请思路",
+      "en": "Plan a SCI paper on preeclampsia biomarkers from topic to submission, with grant ideas"
+    },
+    {
+      "zh": "检索近三年 CAR-T 实体瘤文献并做正反证据综述",
+      "en": "Retrieve last-3-year CAR-T solid tumor literature and write a pros-cons evidence review"
+    },
+    {
+      "zh": "做一项二甲双胍降糖的 Meta 分析，输出森林图与偏倚风险评估",
+      "en": "Run a Metformin hypoglycemia Meta-analysis with forest plots and risk-of-bias"
+    }
+  ],
+  "members": [
+    {
+      "id": "paper-research-team-team-lead",
+      "displayName": {
+        "en": "Wen Shuheng",
+        "zh": "文枢衡"
+      },
+      "profession": {
+        "en": "Research Editorial Director",
+        "zh": "研究主编"
+      },
+      "avatar": "avatars/paper-research-team-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "paper-topic-designer",
+      "displayName": {
+        "en": "Li Tiyuan",
+        "zh": "立题远"
+      },
+      "profession": {
+        "en": "Topic & Grant Designer",
+        "zh": "选题与基金策划师"
+      },
+      "avatar": "avatars/paper-topic-designer.png",
+      "role": "member"
+    },
+    {
+      "id": "paper-literature-scout",
+      "displayName": {
+        "en": "Suo Wenjin",
+        "zh": "索文津"
+      },
+      "profession": {
+        "en": "Literature Scout",
+        "zh": "文献检索专员"
+      },
+      "avatar": "avatars/paper-literature-scout.png",
+      "role": "member"
+    },
+    {
+      "id": "paper-writer",
+      "displayName": {
+        "en": "Zhu Huazhang",
+        "zh": "著华章"
+      },
+      "profession": {
+        "en": "Academic Writer",
+        "zh": "学术写作工程师"
+      },
+      "avatar": "avatars/paper-writer.png",
+      "role": "member"
+    },
+    {
+      "id": "paper-evidence-synthesizer",
+      "displayName": {
+        "en": "Zheng Xunzhen",
+        "zh": "证循真"
+      },
+      "profession": {
+        "en": "Evidence Synthesist",
+        "zh": "循证合成分析师"
+      },
+      "avatar": "avatars/paper-evidence-synthesizer.png",
+      "role": "member"
+    },
+    {
+      "id": "paper-layout-designer",
+      "displayName": {
+        "en": "Cheng Zhangyi",
+        "zh": "成章仪"
+      },
+      "profession": {
+        "en": "Layout & Delivery Engineer",
+        "zh": "排版与交付工程师"
+      },
+      "avatar": "avatars/paper-layout-designer.png",
+      "role": "member"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "wps-limfinity-integration",
+  "version": "1.1.0",
+  "description": "Expert for integrating WPS dbsheets with Limfinity LIMS: user-level OAuth/KSO-1 auth, field mapping, and incremental sync scripts.",
+  "author": {
+    "name": "易云"
+  },
+  "agents": [
+    "./agents/wps-limfinity-integration.md"
+  ],
+  "expertType": "agent",
+  "agentName": "wps-limfinity-integration",
+  "displayName": {
+    "en": "WPS-Limfinity Integration Expert",
+    "zh": "WPS-Limfinity 对接专家"
+  },
+  "profession": {
+    "en": "WPS-Limfinity Integration Engineer",
+    "zh": "WPS-Limfinity 对接工程师"
+  },
+  "displayDescription": {
+    "en": "Integrates WPS dbsheets and Tencent docs smartbooks with Limfinity LIMS: auth, field mapping, and incremental sync.",
+    "zh": "专注 WPS 多维表与腾讯文档对接 Limfinity，提供鉴权、字段映射与增量同步方案。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "zh": "帮我把 WPS 多维表对接到 Limfinity 来访人员登记表",
+    "en": "Help me sync a WPS dbsheet into the Limfinity visitor registry"
+  },
+  "plugin": "wps-limfinity-integration",
+  "tags": [
+    {
+      "en": "WPS Dbsheet",
+      "zh": "WPS 多维表"
+    },
+    {
+      "en": "Limfinity LIMS",
+      "zh": "Limfinity 集成"
+    },
+    {
+      "en": "Incremental Sync",
+      "zh": "增量同步"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Sync a WPS dbsheet into the Limfinity visitor registry",
+      "zh": "帮我把 WPS 多维表对接到 Limfinity 来访人员登记表"
+    },
+    {
+      "en": "How do I configure WPS OAuth authorization code and KSO-1 signing?",
+      "zh": "WPS 多维表 OAuth 授权码和 KSO-1 签名怎么配置？"
+    },
+    {
+      "en": "How do I sync a Tencent docs smartbook into Limfinity?",
+      "zh": "腾讯文档智能表(smartsheet)怎么同步到 Limfinity？"
+    }
+  ]
+}

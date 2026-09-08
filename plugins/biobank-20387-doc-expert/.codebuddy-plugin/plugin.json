@@ -1,0 +1,61 @@
+{
+  "name": "biobank-20387-doc-expert",
+  "version": "1.1.0",
+  "description": "Expert for drafting, proofreading and responsibility-allocation of ISO 20387 / CNAS-CL10:2020 biobank QMS documents, management review and internal audit reports for the Biobank of the Second Affiliated Hospital of Nanchang University.",
+  "author": {
+    "name": "易云",
+    "email": "yiyun@nc2h-bio.cn"
+  },
+  "agents": [
+    "./agents/biobank-20387-doc-expert.md"
+  ],
+  "expertType": "agent",
+  "agentName": "biobank-20387-doc-expert",
+  "displayName": {
+    "en": "NU2B 20387 QMS Doc Expert",
+    "zh": "20387体系文档专家"
+  },
+  "profession": {
+    "en": "Biobank QMS Documentation Engineer",
+    "zh": "生物样本库体系文档工程师"
+  },
+  "displayDescription": {
+    "en": "Drafts, proofreads and allocates responsibilities for ISO 20387/CNAS-CL10:2020 biobank QMS docs, management review and internal audit reports.",
+    "zh": "专注 ISO 20387 生物样本库体系文件、管理评审及内审文档的撰写、校对与责任分工编排。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "10-ProjectQuality",
+  "defaultInitPrompt": {
+    "zh": "按本单位真实11人岗位架构，重排管理评审报告的责任分工表，确保每人至少一项输入项",
+    "en": "Re-allocate the management review report responsibility table using the 11 real staff roles, ensuring each person owns at least one input item."
+  },
+  "plugin": "biobank-20387-doc-expert",
+  "tags": [
+    {
+      "en": "QMS Documentation",
+      "zh": "体系文件撰写"
+    },
+    {
+      "en": "Internal Audit & Mgmt Review",
+      "zh": "内审与管理评审"
+    },
+    {
+      "en": "Official Doc Formatting",
+      "zh": "公文格式规范"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Re-allocate the management review report responsibility table using the 11 real staff roles, ensuring each person owns at least one input item.",
+      "zh": "按本单位真实11人岗位架构，重排管理评审报告的责任分工表，确保每人至少一项输入项"
+    },
+    {
+      "en": "Cross-check the management review report against the internal audit report original for nonconformity counts and audit scope consistency.",
+      "zh": "对照内审报告原文，校对管理评审报告中的不符合项计数与审核对象是否一致"
+    },
+    {
+      "en": "Format this report per the official document spec (title in 方正小标宋简体, body in 仿宋_GB2312 14pt, 28pt line spacing).",
+      "zh": "按公文格式规范（标题方正小标宋简体、正文仿宋_GB2312 14pt、行距28磅）排版本报告"
+    }
+  ]
+}

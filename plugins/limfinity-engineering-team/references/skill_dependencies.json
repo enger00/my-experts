@@ -1,0 +1,53 @@
+{
+  "team": "limfinity-engineering-team",
+  "team_display_name": "Limfinity 工程专家团",
+  "binding_mode": "runtime-by-name",
+  "generated": "2026-09-08",
+  "total_skills": 17,
+  "members": {
+    "limfinity-integration-engineer": {
+      "stage": "数据集成工程师",
+      "skill_count": 0,
+      "skills": []
+    },
+    "limfinity-cloud-backend-engineer": {
+      "stage": "云后端与同步工程师",
+      "skill_count": 1,
+      "skills": [
+        "limfinity-cloudbase-sync"
+      ]
+    },
+    "limfinity-miniprogram-engineer": {
+      "stage": "小程序前端工程师",
+      "skill_count": 0,
+      "skills": []
+    },
+    "limfinity-infra-ops-engineer": {
+      "stage": "基础设施运维工程师",
+      "skill_count": 0,
+      "skills": []
+    },
+    "limfinity-compliance-delivery": {
+      "stage": "合规与交付工程师",
+      "skill_count": 16,
+      "skills": [
+        "chinese-formal-report-docx",
+        "docx",
+        "docx-official",
+        "pptx",
+        "pptx-official",
+        "xlsx-docx-chart-embed",
+        "excel",
+        "pdf-processing-pro",
+        "markitdown",
+        "style-rewrite",
+        "sop-writer",
+        "regulatory-drafter",
+        "mindmap-html-generator",
+        "markdown-mermaid-writing",
+        "iso-13485-certification",
+        "hipaa-compliance"
+      ]
+    }
+  }
+}

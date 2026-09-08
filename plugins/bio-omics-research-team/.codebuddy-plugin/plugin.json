@@ -1,0 +1,121 @@
+{
+  "name": "bio-omics-research-team",
+  "version": "1.0.0",
+  "description": "Multi-omics bioinformatics research team: a dispatch lead routes each task by omics type and analysis stage to six specialists - data acquisition & QC, omics analysis, statistical & causal inference, functional annotation, visualization, and result reporting - collaborating across the full reproducible analysis pipeline.",
+  "author": {
+    "name": "易云"
+  },
+  "agents": [
+    "./agents/bio-omics-research-team-team-lead.md",
+    "./agents/omics-data-acquisition.md",
+    "./agents/omics-analysis-engineer.md",
+    "./agents/omics-statistics-analyst.md",
+    "./agents/omics-annotation-specialist.md",
+    "./agents/omics-visualization-engineer.md",
+    "./agents/omics-report-writer.md"
+  ],
+
+  "expertType": "team",
+  "agentName": "bio-omics-research-team-team-lead",
+  "teamInfo": {
+    "leadAgent": "bio-omics-research-team-team-lead",
+    "memberAgents": [
+      "omics-data-acquisition",
+      "omics-analysis-engineer",
+      "omics-statistics-analyst",
+      "omics-annotation-specialist",
+      "omics-visualization-engineer",
+      "omics-report-writer"
+    ]
+  },
+
+  "displayName": {
+    "en": "Bio-Omics Research Team",
+    "zh": "生信多组学科研团"
+  },
+  "profession": {
+    "en": "Bio-Omics Research Team",
+    "zh": "生信多组学科研团"
+  },
+  "displayDescription": {
+    "en": "Multi-omics research team: a dispatch lead orchestrates six stages - data acquisition, omics analysis, statistical inference, functional annotation, visualization, and reporting - to deliver reproducible analysis pipelines.",
+    "zh": "生信多组学科研团：主理人编排数据获取、组学分析、统计推断、功能注释、可视化与报告，交付可复现流程。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "基于 GSE75010 复现子痫前期胎盘多组学分析，给出完整流程与图表",
+    "en": "Reproduce the preeclampsia placental multi-omics analysis from GSE75010 with a full pipeline and figures"
+  },
+  "plugin": "bio-omics-research-team",
+  "tags": [
+    { "en": "Multi-omics Analysis", "zh": "多组学分析" },
+    { "en": "Statistics & Causal Inference", "zh": "统计与因果推断" },
+    { "en": "Reproducible Pipeline", "zh": "可复现科研流程" }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Reproduce the preeclampsia placental multi-omics analysis from GSE75010 with a full pipeline and figures",
+      "zh": "基于 GSE75010 复现子痫前期胎盘多组学分析，给出完整流程与图表"
+    },
+    {
+      "en": "Run single-cell RNA-seq QC, clustering, cell type annotation and marker gene discovery",
+      "zh": "做单细胞 RNA 测序质控、聚类、细胞类型注释与标志基因筛选"
+    },
+    {
+      "en": "Run a two-sample Mendelian randomization analysis with sensitivity tests and forest plots",
+      "zh": "做两样本孟德尔随机化分析，输出敏感性分析与森林图"
+    }
+  ],
+  "members": [
+    {
+      "id": "bio-omics-research-team-team-lead",
+      "displayName": { "en": "Lu Mingxi", "zh": "路明析" },
+      "profession": { "en": "Research Orchestration Director", "zh": "研究编排总监" },
+      "avatar": "avatars/bio-omics-research-team-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "omics-data-acquisition",
+      "displayName": { "en": "Tao Yuanqing", "zh": "陶源清" },
+      "profession": { "en": "Data Acquisition & QC Engineer", "zh": "数据获取与质控工程师" },
+      "avatar": "avatars/omics-data-acquisition.png",
+      "role": "member"
+    },
+    {
+      "id": "omics-analysis-engineer",
+      "displayName": { "en": "Xie Xuzhen", "zh": "解序真" },
+      "profession": { "en": "Omics Analysis Engineer", "zh": "组学分析工程师" },
+      "avatar": "avatars/omics-analysis-engineer.png",
+      "role": "member"
+    },
+    {
+      "id": "omics-statistics-analyst",
+      "displayName": { "en": "Zou Xianzhu", "zh": "邹显著" },
+      "profession": { "en": "Statistical & Causal Inference Analyst", "zh": "统计与因果推断分析师" },
+      "avatar": "avatars/omics-statistics-analyst.png",
+      "role": "member"
+    },
+    {
+      "id": "omics-annotation-specialist",
+      "displayName": { "en": "Tan Zhuquan", "zh": "谭注诠" },
+      "profession": { "en": "Functional Annotation & Database Specialist", "zh": "功能注释与数据库专员" },
+      "avatar": "avatars/omics-annotation-specialist.png",
+      "role": "member"
+    },
+    {
+      "id": "omics-visualization-engineer",
+      "displayName": { "en": "Tu Xingming", "zh": "涂形明" },
+      "profession": { "en": "Visualization & Figure Engineer", "zh": "可视化与图表工程师" },
+      "avatar": "avatars/omics-visualization-engineer.png",
+      "role": "member"
+    },
+    {
+      "id": "omics-report-writer",
+      "displayName": { "en": "Wen Yanda", "zh": "文言达" },
+      "profession": { "en": "Result Interpretation & Report Writer", "zh": "结果解读与报告撰写" },
+      "avatar": "avatars/omics-report-writer.png",
+      "role": "member"
+    }
+  ]
+}

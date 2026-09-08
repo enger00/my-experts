@@ -1,0 +1,144 @@
+{
+  "team": "bio-omics-research-team",
+  "team_display_name": "生信多组学科研团",
+  "binding_mode": "runtime-by-name",
+  "generated": "2026-09-08",
+  "total_skills": 99,
+  "members": {
+    "omics-data-acquisition": {
+      "stage": "数据获取与质控工程师",
+      "skill_count": 15,
+      "skills": [
+        "bio-geo-data",
+        "geo-database",
+        "bio-batch-downloads",
+        "bio-batch-processing",
+        "bio-alignment-io",
+        "bio-alignment-indexing",
+        "bio-alignment-sorting",
+        "bio-alignment-filtering",
+        "bio-alignment-validation",
+        "bio-alignment-files-bam-statistics",
+        "bio-expression-matrix-counts-ingest",
+        "bio-expression-matrix-gene-id-mapping",
+        "bio-expression-matrix-metadata-joins",
+        "bio-expression-matrix-sparse-handling",
+        "bio-single-cell-data-io"
+      ]
+    },
+    "omics-analysis-engineer": {
+      "stage": "组学分析工程师",
+      "skill_count": 23,
+      "skills": [
+        "bio-differential-expression-batch-correction",
+        "bio-differential-expression-timeseries-de",
+        "bio-differential-splicing",
+        "bio-single-cell-data-io",
+        "bio-single-cell-clustering",
+        "bio-single-cell-cell-annotation",
+        "bio-single-cell-markers-annotation",
+        "bio-single-cell-batch-integration",
+        "bio-single-cell-lineage-tracing",
+        "bio-single-cell-cell-communication",
+        "bio-single-cell-multimodal-integration",
+        "single-annotation",
+        "bio-spatial-transcriptomics-spatial-preprocessing",
+        "bio-spatial-transcriptomics-spatial-domains",
+        "bio-spatial-transcriptomics-spatial-deconvolution",
+        "bio-spatial-transcriptomics-spatial-statistics",
+        "bio-atac-seq-atac-peak-calling",
+        "bio-atac-seq-differential-accessibility",
+        "bio-chipseq-peak-calling",
+        "bio-chipseq-differential-binding",
+        "bio-proteomics-differential-abundance",
+        "bio-metabolomics-statistical-analysis",
+        "bio-metabolomics-metabolite-annotation"
+      ]
+    },
+    "omics-statistics-analyst": {
+      "stage": "统计与因果推断分析师",
+      "skill_count": 17,
+      "skills": [
+        "bio-experimental-design-sample-size",
+        "bio-experimental-design-power-analysis",
+        "bio-experimental-design-multiple-testing",
+        "bio-experimental-design-batch-design",
+        "bio-causal-genomics-mendelian-randomization",
+        "bio-causal-genomics-colocalization-analysis",
+        "bio-causal-genomics-fine-mapping",
+        "bio-causal-genomics-mediation-analysis",
+        "bio-causal-genomics-pleiotropy-detection",
+        "meta-analysis",
+        "meta-analysis-methods-generator",
+        "meta-results-forest-plot-analyzer",
+        "meta-results-funnel-plot-generator",
+        "meta-results-risk-of-bias",
+        "meta-results-sensitivity-analysis",
+        "meta-protocol-writer",
+        "statistical-analysis"
+      ]
+    },
+    "omics-annotation-specialist": {
+      "stage": "功能注释与数据库专员",
+      "skill_count": 21,
+      "skills": [
+        "bio-variant-calling",
+        "bio-variant-normalization",
+        "bio-variant-annotation",
+        "bio-variant-calling-filtering-best-practices",
+        "bio-variant-calling-clinical-interpretation",
+        "bio-variant-calling-structural-variant-calling",
+        "bio-clinical-databases-gnomad-frequencies",
+        "bio-clinical-databases-clinvar-lookup",
+        "bio-clinical-databases-dbsnp-queries",
+        "bio-clinical-databases-myvariant-queries",
+        "bio-clinical-databases-pharmacogenomics",
+        "bio-clinical-databases-hla-typing",
+        "bio-clinical-databases-variant-prioritization",
+        "bio-clinical-databases-somatic-signatures",
+        "bio-clinical-databases-tumor-mutational-burden",
+        "string-database",
+        "gene-database",
+        "opentargets-database",
+        "bindingdb-database",
+        "alphafold-database",
+        "bio-clinical-databases-polygenic-risk"
+      ]
+    },
+    "omics-visualization-engineer": {
+      "stage": "可视化与图表工程师",
+      "skill_count": 10,
+      "skills": [
+        "bio-data-visualization-heatmaps-clustering",
+        "bio-data-visualization-specialized-omics-plots",
+        "bio-data-visualization-multipanel-figures",
+        "bio-data-visualization-color-palettes",
+        "bio-data-visualization-circos-plots",
+        "bio-data-visualization-genome-tracks",
+        "bio-data-visualization-genome-browser-tracks",
+        "bio-data-visualization-interactive-visualization",
+        "bio-data-visualization-upset-plots",
+        "bio-data-visualization-ggplot2-fundamentals"
+      ]
+    },
+    "omics-report-writer": {
+      "stage": "结果解读与报告撰写",
+      "skill_count": 13,
+      "skills": [
+        "academic-paper",
+        "paper-analyzer",
+        "discussion-section-architect",
+        "conference-abstract-adaptor",
+        "table-1-generator",
+        "table-1-generator-advanced",
+        "academic-norm-review",
+        "citation-management",
+        "style-rewrite",
+        "chinese-formal-report-docx",
+        "docx",
+        "pptx",
+        "result-figure-consistencycheck"
+      ]
+    }
+  }
+}

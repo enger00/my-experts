@@ -1,0 +1,100 @@
+{
+  "team": "clinical-translational-team",
+  "team_display_name": "临床与转化医学团",
+  "binding_mode": "runtime-by-name",
+  "generated": "2026-09-08",
+  "total_skills": 67,
+  "members": {
+    "clinical-data-governor": {
+      "stage": "临床数据治理工程师",
+      "skill_count": 18,
+      "skills": [
+        "clinical-data-cleaner",
+        "clinical-decision-support",
+        "clinical-diagnostic-reasoning",
+        "clinical-reports",
+        "clinical-nlp-extractor",
+        "clinical-note-summarization",
+        "medical-entity-extractor",
+        "lab-result-interpretation",
+        "patient-consent-simplifier",
+        "icd10-cpt-coding-assistant",
+        "inclusion-criteria-gen",
+        "ebm-calculator",
+        "epidemiologist-analyst",
+        "epidemiology",
+        "cohort-study-quality-assessment-nos",
+        "diagnostic-study-quality-assessment-quadas-2",
+        "clinical-research-design-extractor",
+        "clinical-research-literature-analysis"
+      ]
+    },
+    "clinical-pv-specialist": {
+      "stage": "药物警戒专员",
+      "skill_count": 9,
+      "skills": [
+        "adverse-event-narrative",
+        "tooluniverse-adverse-event-detection",
+        "tooluniverse-pharmacovigilance",
+        "regulatory-drafter",
+        "regulatory-submission",
+        "crisis-detection-intervention-ai",
+        "drug-interaction-checker",
+        "drug-labels-search",
+        "fda-database"
+      ]
+    },
+    "clinical-molecule-designer": {
+      "stage": "分子设计工程师",
+      "skill_count": 30,
+      "skills": [
+        "alphafold",
+        "antibody-design-agent",
+        "binder-design",
+        "bindcraft",
+        "agentd-drug-discovery",
+        "adaptyv",
+        "protein-design-workflow",
+        "protac-design-agent",
+        "mage-antibody-generator",
+        "boltz",
+        "ligandmpnn",
+        "proteinmpnn",
+        "solublempnn",
+        "diffdock",
+        "molecular-dynamics",
+        "bio-admet-prediction",
+        "drug-discovery-search",
+        "chembl-database",
+        "drugbank-database",
+        "rdkit",
+        "datamol",
+        "deepchem",
+        "pytdc",
+        "molfeat",
+        "pdb-database",
+        "bio-immunoinformatics-epitope-prediction",
+        "bio-immunoinformatics-immunogenicity-scoring",
+        "bio-immunoinformatics-mhc-binding-prediction",
+        "bio-immunoinformatics-neoantigen-prediction",
+        "bio-immunoinformatics-tcr-epitope-binding"
+      ]
+    },
+    "clinical-compliance-officer": {
+      "stage": "合规审查专员",
+      "skill_count": 10,
+      "skills": [
+        "hipaa-compliance",
+        "hipaa-compliance-auditor",
+        "fhir-developer-skill",
+        "fhir-development",
+        "care-coordination",
+        "prior-auth-review-skill",
+        "prior-auth-coworker",
+        "claims-appeals",
+        "regulatory-drafter",
+        "iso-13485-certification"
+      ]
+    }
+  }
+}

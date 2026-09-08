@@ -1,0 +1,140 @@
+{
+  "name": "clinical-translational-team",
+  "version": "1.0.0",
+  "description": "Clinical and translational medicine team: a dispatch lead integrates clinical data governance, pharmacovigilance, molecular design and compliance review to support clinical research and translational outputs.",
+  "author": {
+    "name": "易云"
+  },
+  "agents": [
+    "./agents/clinical-translational-team-team-lead.md",
+    "./agents/clinical-data-governor.md",
+    "./agents/clinical-pv-specialist.md",
+    "./agents/clinical-molecule-designer.md",
+    "./agents/clinical-compliance-officer.md"
+  ],
+  "expertType": "team",
+  "agentName": "clinical-translational-team-team-lead",
+  "teamInfo": {
+    "leadAgent": "clinical-translational-team-team-lead",
+    "memberAgents": [
+      "clinical-data-governor",
+      "clinical-pv-specialist",
+      "clinical-molecule-designer",
+      "clinical-compliance-officer"
+    ]
+  },
+  "displayName": {
+    "en": "Clinical & Translational Medicine Team",
+    "zh": "临床与转化医学团"
+  },
+  "profession": {
+    "en": "Clinical & Translational Medicine Team",
+    "zh": "临床与转化医学团"
+  },
+  "displayDescription": {
+    "en": "Clinical and translational medicine team: a dispatch lead integrates clinical data governance, pharmacovigilance, molecular design and compliance review to support clinical research and translational outputs.",
+    "zh": "临床与转化医学团：主理人整合数据治理、药物警戒、分子设计与合规四环，支撑临床转化产出。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "治理一批回顾性队列的临床数据并做流行病学描述分析",
+    "en": "Govern a retrospective cohort's clinical data and run epidemiological descriptive analysis"
+  },
+  "plugin": "clinical-translational-team",
+  "tags": [
+    {
+      "en": "Clinical Data",
+      "zh": "临床数据"
+    },
+    {
+      "en": "Pharmacovigilance",
+      "zh": "药物警戒"
+    },
+    {
+      "en": "Molecule Design",
+      "zh": "分子设计"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "治理一批回顾性队列的临床数据并做流行病学描述分析",
+      "en": "Govern a retrospective cohort's clinical data and run epidemiological descriptive analysis"
+    },
+    {
+      "zh": "评估某新药不良反应信号并起草药物警戒报告",
+      "en": "Assess an adverse-event signal of a new drug and draft a pharmacovigilance report"
+    },
+    {
+      "zh": "设计抗 PD-L1 纳米抗体并预测 ADMET 与免疫原性",
+      "en": "Design an anti-PD-L1 nanobody and predict ADMET and immunogenicity"
+    }
+  ],
+  "members": [
+    {
+      "id": "clinical-translational-team-team-lead",
+      "displayName": {
+        "en": "Heng Linchuan",
+        "zh": "衡临川"
+      },
+      "profession": {
+        "en": "Clinical Translation Director",
+        "zh": "临床转化总监"
+      },
+      "avatar": "avatars/clinical-translational-team-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "clinical-data-governor",
+      "displayName": {
+        "en": "Zhi Shuqing",
+        "zh": "治数清"
+      },
+      "profession": {
+        "en": "Clinical Data Governor",
+        "zh": "临床数据治理工程师"
+      },
+      "avatar": "avatars/clinical-data-governor.png",
+      "role": "member"
+    },
+    {
+      "id": "clinical-pv-specialist",
+      "displayName": {
+        "en": "Jie Fengjing",
+        "zh": "戒风警"
+      },
+      "profession": {
+        "en": "Pharmacovigilance Specialist",
+        "zh": "药物警戒专员"
+      },
+      "avatar": "avatars/clinical-pv-specialist.png",
+      "role": "member"
+    },
+    {
+      "id": "clinical-molecule-designer",
+      "displayName": {
+        "en": "Gou Xinyuan",
+        "zh": "构新元"
+      },
+      "profession": {
+        "en": "Molecule Designer",
+        "zh": "分子设计工程师"
+      },
+      "avatar": "avatars/clinical-molecule-designer.png",
+      "role": "member"
+    },
+    {
+      "id": "clinical-compliance-officer",
+      "displayName": {
+        "en": "Gui Xingju",
+        "zh": "规行矩"
+      },
+      "profession": {
+        "en": "Compliance Officer",
+        "zh": "合规审查专员"
+      },
+      "avatar": "avatars/clinical-compliance-officer.png",
+      "role": "member"
+    }
+  ]
+}

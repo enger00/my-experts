@@ -1,0 +1,155 @@
+{
+  "name": "limfinity-engineering-team",
+  "version": "1.2.0",
+  "description": "Limfinity (RURO LIMS) engineering team: a dispatch lead routes each task by capability and model tier to five specialist engineers - data integration, cloud backend & sync, miniprogram frontend, infrastructure ops, compliance & delivery - collaborating across the full sync / miniprogram / VM / documentation pipeline.",
+  "author": {
+    "name": "易云"
+  },
+  "agents": [
+    "./agents/limfinity-engineering-team-lead.md",
+    "./agents/limfinity-integration-engineer.md",
+    "./agents/limfinity-cloud-backend-engineer.md",
+    "./agents/limfinity-miniprogram-engineer.md",
+    "./agents/limfinity-infra-ops-engineer.md",
+    "./agents/limfinity-compliance-delivery.md"
+  ],
+  "expertType": "team",
+  "agentName": "limfinity-engineering-team-lead",
+  "teamInfo": {
+    "leadAgent": "limfinity-engineering-team-lead",
+    "memberAgents": [
+      "limfinity-integration-engineer",
+      "limfinity-cloud-backend-engineer",
+      "limfinity-miniprogram-engineer",
+      "limfinity-infra-ops-engineer",
+      "limfinity-compliance-delivery"
+    ]
+  },
+  "displayName": {
+    "en": "Limfinity Engineering Team",
+    "zh": "Limfinity 工程专家团"
+  },
+  "profession": {
+    "en": "Limfinity Engineering Team",
+    "zh": "Limfinity 工程专家团"
+  },
+  "displayDescription": {
+    "en": "A dispatch-led Limfinity engineering team: routes each task by capability and model tier to five specialists (integration, cloud backend, miniprogram, infra ops, compliance & delivery) across the full sync / app / VM / documentation pipeline.",
+    "zh": "Limfinity 工程专家团：调度主理人路由集成、云后端、小程序、运维、合规交付五专项协作。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "zh": "帮我把 WPS 多维表对接到 Limfinity 来访人员登记表",
+    "en": "Help me sync a WPS dbsheet into the Limfinity visitor registry"
+  },
+  "plugin": "limfinity-engineering-team",
+  "tags": [
+    {
+      "en": "Limfinity LIMS",
+      "zh": "Limfinity 平台"
+    },
+    {
+      "en": "Data Sync & Backend",
+      "zh": "数据同步与后端"
+    },
+    {
+      "en": "Miniprogram & VM Ops",
+      "zh": "小程序与运维"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Sync a WPS dbsheet into the Limfinity visitor registry",
+      "zh": "帮我把 WPS 多维表对接到 Limfinity 来访人员登记表"
+    },
+    {
+      "en": "Sync Limfinity schema/master data into the local Supabase on .56 (Plan C) and make it readable over the public domain",
+      "zh": "怎么把 Limfinity 字段/主数据同步到 .56 本地 Supabase（方案C）并公网可读？"
+    },
+    {
+      "en": "Build the miniprogram after code changes and generate a real-device preview QR code",
+      "zh": "改完小程序代码帮我构建并生成真机预览二维码"
+    }
+  ],
+  "members": [
+    {
+      "id": "limfinity-engineering-team-lead",
+      "displayName": {
+        "en": "Dispatch Lead",
+        "zh": "调度主理人"
+      },
+      "profession": {
+        "en": "Engineering Dispatch Director",
+        "zh": "工程调度总监"
+      },
+      "avatar": "avatars/limfinity-engineering-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "limfinity-integration-engineer",
+      "displayName": {
+        "en": "Integration Engineer",
+        "zh": "集成工程师"
+      },
+      "profession": {
+        "en": "Data Integration Engineer",
+        "zh": "数据集成工程师"
+      },
+      "avatar": "avatars/limfinity-integration-engineer.png",
+      "role": "member"
+    },
+    {
+      "id": "limfinity-cloud-backend-engineer",
+      "displayName": {
+        "en": "Cloud Backend Engineer",
+        "zh": "云后端工程师"
+      },
+      "profession": {
+        "en": "Cloud Backend & Sync Engineer",
+        "zh": "云后端与同步工程师"
+      },
+      "avatar": "avatars/limfinity-cloud-backend-engineer.png",
+      "role": "member"
+    },
+    {
+      "id": "limfinity-miniprogram-engineer",
+      "displayName": {
+        "en": "Miniprogram Engineer",
+        "zh": "小程序工程师"
+      },
+      "profession": {
+        "en": "Miniprogram Frontend Engineer",
+        "zh": "小程序前端工程师"
+      },
+      "avatar": "avatars/limfinity-miniprogram-engineer.png",
+      "role": "member"
+    },
+    {
+      "id": "limfinity-infra-ops-engineer",
+      "displayName": {
+        "en": "Infra Ops Engineer",
+        "zh": "运维工程师"
+      },
+      "profession": {
+        "en": "Infrastructure Ops Engineer",
+        "zh": "基础设施运维工程师"
+      },
+      "avatar": "avatars/limfinity-infra-ops-engineer.png",
+      "role": "member"
+    },
+    {
+      "id": "limfinity-compliance-delivery",
+      "displayName": {
+        "en": "Fu Guida",
+        "zh": "付规达"
+      },
+      "profession": {
+        "en": "Compliance & Delivery Engineer",
+        "zh": "合规与交付工程师"
+      },
+      "avatar": "avatars/limfinity-compliance-delivery.png",
+      "role": "member"
+    }
+  ]
+}
