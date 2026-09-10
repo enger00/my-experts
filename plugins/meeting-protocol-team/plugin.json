@@ -1,0 +1,129 @@
+{
+  "name": "meeting-protocol-team",
+  "version": "1.0.0",
+  "description": "Hospital ceremony and meeting affairs expert team: award seating plans, protocol compliance, document drafting and delivery QA.",
+  "author": {
+    "name": "Yiyun",
+    "email": ""
+  },
+  "agents": [
+    "./agents/meeting-protocol-team-team-lead.md",
+    "./agents/xizheng.md",
+    "./agents/zhenwuwu.md",
+    "./agents/liubizheng.md"
+  ],
+  "skills": [
+    "./skills/award-seating"
+  ],
+  "expertType": "team",
+  "agentName": "meeting-protocol-team-team-lead",
+  "teamInfo": {
+    "leadAgent": "meeting-protocol-team-team-lead",
+    "memberAgents": [
+      "xizheng",
+      "zhenwuwu",
+      "liubizheng"
+    ]
+  },
+  "displayName": {
+    "en": "Meeting Protocol Team",
+    "zh": "会务礼宾专家团"
+  },
+  "profession": {
+    "en": "Meeting Protocol Team",
+    "zh": "会务礼宾专家团"
+  },
+  "displayDescription": {
+    "en": "One-stop protocol affairs team for hospital ceremonies: seating plans, award order, table cards, ushers, document drafting and delivery QA.",
+    "zh": "统筹医院会议与典礼会务：领导排位、领奖顺序、桌牌礼仪、公文起草与交付质检，一站式输出可打印方案。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "09-OperationsHR",
+  "defaultInitPrompt": {
+    "en": "Please arrange the leader seating and award presentation order for the ceremony.",
+    "zh": "请为科教大会颁奖典礼排定领导排位与领奖顺序。"
+  },
+  "plugin": "meeting-protocol-team",
+  "tags": [
+    {
+      "en": "Ceremony Seating",
+      "zh": "颁奖排席"
+    },
+    {
+      "en": "Meeting Coordination",
+      "zh": "会务统筹"
+    },
+    {
+      "en": "Official Documents",
+      "zh": "公文起草"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Please arrange the leader seating and award presentation order for the ceremony.",
+      "zh": "请为科教大会颁奖典礼排定领导排位与领奖顺序。"
+    },
+    {
+      "en": "Generate the six-sheet linked seating workbook and run consistency QA.",
+      "zh": "生成六表联动的颁奖排表工作簿，并做交付前质检。"
+    },
+    {
+      "en": "Review this ceremonial document draft against the official document standards.",
+      "zh": "审查这份会务公文是否符合公文格式规范。"
+    }
+  ],
+  "members": [
+    {
+      "id": "meeting-protocol-team-team-lead",
+      "displayName": {
+        "en": "Wan Licheng",
+        "zh": "万礼成"
+      },
+      "profession": {
+        "en": "Protocol Director",
+        "zh": "礼宾总监"
+      },
+      "avatar": "avatars/meeting-protocol-team-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "xizheng",
+      "displayName": {
+        "en": "Xi Zheng",
+        "zh": "席正"
+      },
+      "profession": {
+        "en": "Award Seating Expert",
+        "zh": "颁奖排席专家"
+      },
+      "avatar": "avatars/xizheng.png",
+      "role": "member"
+    },
+    {
+      "id": "zhenwuwu",
+      "displayName": {
+        "en": "Zhen Wuwu",
+        "zh": "甄无误"
+      },
+      "profession": {
+        "en": "Delivery QA Inspector",
+        "zh": "交付质检官"
+      },
+      "avatar": "avatars/zhenwuwu.png",
+      "role": "member"
+    },
+    {
+      "id": "liubizheng",
+      "displayName": {
+        "en": "Liu Bizheng",
+        "zh": "柳笔正"
+      },
+      "profession": {
+        "en": "Official Document Drafter",
+        "zh": "公文起草专家"
+      },
+      "avatar": "avatars/liubizheng.png",
+      "role": "member"
+    }
+  ]
+}
