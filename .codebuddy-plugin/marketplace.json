@@ -33,14 +33,14 @@
       "description": "Hospital ceremony and meeting affairs expert team: award seating plans, protocol compliance, document drafting and delivery QA."
     },
     {
-      "name": "limfinity-engineering-team",
-      "source": "./plugins/limfinity-engineering-team",
-      "description": "Limfinity (RURO LIMS) engineering team: a dispatch lead routes each task by capability and model tier to five specialist engineers - data integration, cloud backend & sync, miniprogram frontend, infrastructure ops, compliance & delivery - collaborating across the full sync / miniprogram / VM / documentation pipeline."
-    },
-    {
       "name": "bio-omics-research-team",
       "source": "./plugins/bio-omics-research-team",
       "description": "Multi-omics bioinformatics research team: a dispatch lead routes each task by omics type and analysis stage to six specialists - data acquisition & QC, omics analysis, statistical & causal inference, functional annotation, visualization, and result reporting - collaborating across the full reproducible analysis pipeline."
+    },
+    {
+      "name": "limfinity-engineering-team",
+      "source": "./plugins/limfinity-engineering-team",
+      "description": "Limfinity (RURO LIMS) engineering team: a dispatch lead routes each task by capability and model tier to five specialist engineers - data integration, cloud backend & sync, miniprogram frontend, infrastructure ops, compliance & delivery - collaborating across the full sync / miniprogram / VM / documentation pipeline."
     }
   ]
 }
