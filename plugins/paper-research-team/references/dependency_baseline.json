@@ -1,9 +1,9 @@
 {
   "team": "paper-research-team",
   "team_display_name": "论文写作与循证医学团",
-  "generated": "2026-09-08",
+  "generated": "2026-09-15",
   "source": "references/skill_dependencies.json",
-  "total": 90,
+  "total": 92,
   "skill_ids": [
     "Case-control-study-quality-assessment-nos",
     "academic-norm-review",
@@ -93,6 +93,8 @@
     "table-1-generator",
     "table-1-generator-advanced",
     "text-format-organizer",
+    "wanfang-webvpn-pdf",
+    "webvpn-pdf-downloader",
     "word-read-write",
     "xlsx-docx-chart-embed"
   ]

@@ -1,6 +1,6 @@
 {
   "name": "limfinity-engineering-team",
-  "version": "1.2.0",
+  "version": "1.5.0",
   "description": "Limfinity (RURO LIMS) engineering team: a dispatch lead routes each task by capability and model tier to five specialist engineers - data integration, cloud backend & sync, miniprogram frontend, infrastructure ops, compliance & delivery - collaborating across the full sync / miniprogram / VM / documentation pipeline.",
   "author": {
     "name": "易云"

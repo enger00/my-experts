@@ -1,0 +1,40 @@
+{
+  "team": "meeting-protocol-team",
+  "team_display_name": "会务礼宾专家团",
+  "binding_mode": "runtime-by-name",
+  "generated": "2026-09-15",
+  "total_skills": 1,
+  "external_skills": 0,
+  "package_internal_skills": [
+    "./skills/award-seating"
+  ],
+  "members": {
+    "meeting-protocol-team-team-lead": {
+      "stage": "礼宾总监",
+      "skill_count": 0,
+      "skills": []
+    },
+    "xizheng": {
+      "stage": "排席专家",
+      "skill_count": 1,
+      "skills": [
+        "award-seating"
+      ]
+    },
+    "zhenwuwu": {
+      "stage": "质检官",
+      "skill_count": 0,
+      "skills": []
+    },
+    "liubizheng": {
+      "stage": "公文专家",
+      "skill_count": 0,
+      "skills": []
+    }
+  },
+  "verification": {
+    "method": "keyword-hit-test",
+    "date": "2026-09-15",
+    "result": "除包内 award-seating 外无任何全局技能名命中；外部全局技能依赖为 0"
+  }
+}

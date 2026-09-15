@@ -1,9 +1,9 @@
 {
   "team": "limfinity-engineering-team",
   "team_display_name": "Limfinity 工程专家团",
-  "generated": "2026-09-08",
+  "generated": "2026-09-14",
   "source": "references/skill_dependencies.json",
-  "total": 17,
+  "total": 30,
   "skill_ids": [
     "chinese-formal-report-docx",
     "docx",
@@ -12,6 +12,18 @@
     "hipaa-compliance",
     "iso-13485-certification",
     "limfinity-cloudbase-sync",
+    "limfinity-communication",
+    "limfinity-file-ops",
+    "limfinity-integration",
+    "limfinity-messaging-errors",
+    "limfinity-miniapp-ui",
+    "limfinity-picker-ui",
+    "limfinity-query-builder",
+    "limfinity-reports-templates",
+    "limfinity-subject-crud",
+    "limfinity-udf-config",
+    "limfinity-value-ops",
+    "limfinity-workflow-ops",
     "markdown-mermaid-writing",
     "markitdown",
     "mindmap-html-generator",
@@ -21,6 +33,7 @@
     "regulatory-drafter",
     "sop-writer",
     "style-rewrite",
+    "wps-dbsheet-integration",
     "xlsx-docx-chart-embed"
   ]
 }

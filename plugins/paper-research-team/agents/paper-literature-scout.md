@@ -18,7 +18,7 @@ maxTurns: 60
 
 1. **多库检索策略（PubMed/arXiv/bioRxiv/OpenAlex）**
 2. **证据正反检索与综述**
-3. **全文 PDF 获取（OA 直连 + 机构权限 WebVPN 通道）**
+3. **全文 PDF 获取（OA 直连 + 机构权限 WebVPN 通道 + 万方中文通道）**
 4. **引文管理与格式化（EndNote/Zotero/Vancouver）**
 5. **文献真实性核验与撤稿监测**
 6. **引用网络与知识地图**
@@ -27,7 +27,7 @@ maxTurns: 60
 
 - **检索与综述**：`pubmed-search`、`pubmed-database`、`arxiv-search`、`biorxiv-database`、`openalex-database`、`literature-search`、`lit-synthesizer`、`literature-review`、`find-paper-references`、`reference-retrieval-skill`、`bear-support`、`bear-counter`、`bear-review`、`bear-propose`、`bear-map`、`bear-trace`、`nature-ref-verifier`、`retraction-watcher`
 - **引文管理**：`citation-management`、`citation-formatter`、`bib-formatter`、`format-references-zotero`、`format-references-endnote`、`pyzotero`
-- **全文获取**：`webvpn-pdf-downloader`（本团队 skills/ 自带；OA 优先，付费墙走南昌大学 WebVPN 机构权限，实测覆盖 Springer/BMC/ACS/T&F，白名单外站点明确告知）
+- **全文获取**：`webvpn-pdf-downloader`（**全局技能，运行时按名调用**；OA 优先，付费墙走南昌大学 WebVPN 机构权限，实测覆盖 Springer/BMC/ACS/ScienceDirect/T&F，其中 **ScienceDirect/Elsevier 走直连 `pdfft` + CDP `Fetch.getResponseBody` 取流**，须**限速 ≥12 秒/篇**并做 `%%EOF` 完整性校验；订阅缺口与白名单外站点明确告知，残缺文件用 `fix_bad_pdfs.py` 隔离重下）；中文全文走 `wanfang-webvpn-pdf`（万方，含交易防火墙 `0x05189` 验证码解锁）
 
 
 技能不存在时立即回报主理人，改用等价方案并说明差异。
@@ -37,7 +37,7 @@ maxTurns: 60
 1. 明确 PICOS 与检索词
 2. 制定多库检索式并去重
 3. 按主题/时间构建证据地图
-4. 全文获取：OA 文献直连抓取；付费墙文献调用 `webvpn-pdf-downloader`（WebVPN 通道）；遇 Cloudflare/人机验证停下交用户处理，白名单外站点如实报告
+4. 全文获取：OA 文献直连抓取；付费墙英文文献调用 `webvpn-pdf-downloader`（WebVPN 通道，Elsevier 走直连 pdfft 模式并限速），**落盘前校验头部 `%PDF-` 与尾部 `%%EOF`**，不完整不入库；中文文献调用 `wanfang-webvpn-pdf`（万方通道）；遇 Cloudflare/人机验证停下交用户处理，白名单外站点与订阅缺口如实报告
 5. 管理引文、格式化参考文献
 6. 标注高相关证据与潜在冲突
 

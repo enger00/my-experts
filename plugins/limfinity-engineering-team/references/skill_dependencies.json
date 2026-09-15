@@ -2,13 +2,26 @@
   "team": "limfinity-engineering-team",
   "team_display_name": "Limfinity 工程专家团",
   "binding_mode": "runtime-by-name",
-  "generated": "2026-09-08",
-  "total_skills": 17,
+  "generated": "2026-09-15",
+  "total_skills": 30,
   "members": {
     "limfinity-integration-engineer": {
       "stage": "数据集成工程师",
-      "skill_count": 0,
-      "skills": []
+      "skill_count": 12,
+      "skills": [
+        "limfinity-query-builder",
+        "limfinity-subject-crud",
+        "limfinity-value-ops",
+        "limfinity-udf-config",
+        "limfinity-workflow-ops",
+        "limfinity-messaging-errors",
+        "limfinity-communication",
+        "limfinity-file-ops",
+        "limfinity-reports-templates",
+        "limfinity-picker-ui",
+        "limfinity-integration",
+        "wps-dbsheet-integration"
+      ]
     },
     "limfinity-cloud-backend-engineer": {
       "stage": "云后端与同步工程师",
@@ -19,8 +32,10 @@
     },
     "limfinity-miniprogram-engineer": {
       "stage": "小程序前端工程师",
-      "skill_count": 0,
-      "skills": []
+      "skill_count": 1,
+      "skills": [
+        "limfinity-miniapp-ui"
+      ]
     },
     "limfinity-infra-ops-engineer": {
       "stage": "基础设施运维工程师",

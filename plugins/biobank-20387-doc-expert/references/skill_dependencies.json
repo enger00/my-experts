@@ -1,0 +1,22 @@
+{
+  "package": "biobank-20387-doc-expert",
+  "display_name": "20387体系文档专家",
+  "expert_type": "agent",
+  "binding_mode": "self-contained",
+  "generated": "2026-09-15",
+  "total_skills": 0,
+  "external_skills": 0,
+  "dependencies": [
+    {
+      "agent": "biobank-20387-doc-expert",
+      "stage": "生物样本库体系文档工程师",
+      "skill_count": 0,
+      "skills": []
+    }
+  ],
+  "verification": {
+    "method": "keyword-hit-test",
+    "date": "2026-09-15",
+    "result": "全包对任一全局技能名命中均为 0；自包含（python-docx 内置自实现）"
+  }
+}

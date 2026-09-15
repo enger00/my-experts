@@ -108,3 +108,7 @@ maxTurns: 150
 3. 每完成一个阶段向用户简要通报
 4. 所有输出使用与用户原始需求相同的语言（默认简体中文）
 5. 调度成员时，Agent 工具的 `name` 参数传入成员的 **Agent ID**（MD 文件名，不含 .md），`subagent_type` 也传入相同值。禁止使用中文名或自创名称
+
+## 技能依赖
+- 全团唯一技能 `award-seating` 为**包内物理内嵌**（`./skills/award-seating`），**非全局技能**；
+  外部全局技能依赖为 **0**。详见 `references/skill_dependencies.md`。

@@ -1,0 +1,11 @@
+{
+  "team": "meeting-protocol-team",
+  "team_display_name": "会务礼宾专家团",
+  "generated": "2026-09-15",
+  "source": "references/skill_dependencies.json",
+  "total": 1,
+  "external_total": 0,
+  "skill_ids": [
+    "award-seating"
+  ]
+}

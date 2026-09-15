@@ -1,0 +1,8 @@
+{
+  "package": "biobank-20387-doc-expert",
+  "display_name": "20387体系文档专家",
+  "generated": "2026-09-15",
+  "source": "references/skill_dependencies.json",
+  "total": 0,
+  "skill_ids": []
+}

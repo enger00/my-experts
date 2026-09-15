@@ -2,8 +2,8 @@
   "team": "paper-research-team",
   "team_display_name": "论文写作与循证医学团",
   "binding_mode": "runtime-by-name",
-  "generated": "2026-09-08",
-  "total_skills": 90,
+  "generated": "2026-09-15",
+  "total_skills": 92,
   "members": {
     "paper-topic-designer": {
       "stage": "选题与基金策划师",
@@ -27,7 +27,7 @@
     },
     "paper-literature-scout": {
       "stage": "文献检索专员",
-      "skill_count": 24,
+      "skill_count": 26,
       "skills": [
         "pubmed-search",
         "pubmed-database",
@@ -52,7 +52,9 @@
         "bib-formatter",
         "format-references-zotero",
         "format-references-endnote",
-        "pyzotero"
+        "pyzotero",
+        "wanfang-webvpn-pdf",
+        "webvpn-pdf-downloader"
       ]
     },
     "paper-writer": {

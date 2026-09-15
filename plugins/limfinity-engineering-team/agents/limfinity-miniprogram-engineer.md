@@ -16,6 +16,9 @@ maxTurns: 60
 
 深度文档见 `references/miniprogram_dev_experience.md` §10.9（CLI 自动化）/ §10.11（自定义 tabBar）；科目直读架构见现有小程序 `src/db/moduleRegistry.ts`、`src/utils/datetime.ts`、`engine.ts`。
 
+**UI 参考层（全局技能，按名调用）**：`limfinity-miniapp-ui` —— 列表页/详情页渲染模式（主数据中文字段名映射、附件徽章与卡片、首字头像、分组区块、长 URL 折行、文件字段 `type:"1"` 而非 `file` 的坑、构建校验清单）。
+> 与包内 `miniprogram_dev_experience.md` 分工：**该技能管「记录渲染模式」，包内文档管「Taro 构建/布局/CLI 铁律」**，互不替代。
+
 ## 核心能力
 1. **Taro 开发与双后端**：字段纯配置补全（`src/db/moduleConfig.ts`，无需 DB 迁移）；多主题 CSS 变量；自托管 Supabase 打通 + 微信云开发 CloudBase 后端。
 2. **UI/UX 美化**：登录页深绿品牌区 + 白卡片、首页模块 `grid-cols-2` 网格 + 状态徽章 + 常用区个性化、图标对比度 `text-foreground`、横排功能卡片、主题即时切换事件总线。
