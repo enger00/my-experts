@@ -1,0 +1,188 @@
+{
+  "name": "lit-fulltext-team",
+  "version": "1.0.0",
+  "description": "Literature full-text acquisition team: a lead orchestrates monthly discovery, cleaning/routing, and serialized per-channel retrieval (Wanfang, CNKI, CMA journals, English publishers, OA/PMC), with quality assurance enforcing record-to-file consistency.",
+  "author": {
+    "name": "易云"
+  },
+  "agents": [
+    "./agents/lit-fulltext-team-team-lead.md",
+    "./agents/lit-discovery-router.md",
+    "./agents/lit-wanfang-channel.md",
+    "./agents/lit-cnki-channel.md",
+    "./agents/lit-yiigle-channel.md",
+    "./agents/lit-en-publisher-channel.md",
+    "./agents/lit-oa-access.md",
+    "./agents/lit-quality-settlement.md"
+  ],
+  "skills": [
+    "./skills/lit-fulltext-flow"
+  ],
+  "expertType": "team",
+  "agentName": "lit-fulltext-team-team-lead",
+  "teamInfo": {
+    "leadAgent": "lit-fulltext-team-team-lead",
+    "memberAgents": [
+      "lit-discovery-router",
+      "lit-wanfang-channel",
+      "lit-cnki-channel",
+      "lit-yiigle-channel",
+      "lit-en-publisher-channel",
+      "lit-oa-access",
+      "lit-quality-settlement"
+    ]
+  },
+  "displayName": {
+    "en": "Literature Full-text Acquisition Team",
+    "zh": "文献全文获取团"
+  },
+  "profession": {
+    "en": "Literature Full-text Acquisition Team",
+    "zh": "文献全文获取团"
+  },
+  "displayDescription": {
+    "en": "Literature full-text acquisition team: orchestrates monthly discovery, provenance-based routing and serialized multi-channel retrieval (Wanfang/CNKI/CMA/English publishers/OA), with QA enforcing record-to-file consistency.",
+    "zh": "编排月度检索与来源路由，万方/知网/中华医学期刊/英文出版社/OA 五路直取全文，质检把关账实相符。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "zh": "帮我抓取上个月新增的文献，按来源分派到万方/知网/PMC 各通道把全文下载下来",
+    "en": "Fetch last month's new literature and download full texts via the Wanfang/CNKI/PMC channels by source"
+  },
+  "plugin": "lit-fulltext-team",
+  "tags": [
+    {
+      "en": "Full-text Acquisition",
+      "zh": "文献全文获取"
+    },
+    {
+      "en": "Multi-source Orchestration",
+      "zh": "多源通道编排"
+    },
+    {
+      "en": "Sharding & Rate Control",
+      "zh": "分片与风控节流"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "帮我抓取上个月新增的文献，按来源分派到万方/知网/PMC 各通道把全文下载下来",
+      "en": "Fetch last month's new literature and download full texts via the Wanfang/CNKI/PMC channels by source"
+    },
+    {
+      "zh": "盘点当前缺口池，按通道给我一份可执行的下载计划与预期产出",
+      "en": "Audit the current gap pool and give me an actionable per-channel download plan with expected yield"
+    },
+    {
+      "zh": "检查各通道健康度（CDP 会话、WebVPN、风控、限流）并汇报昨天各通道成功率",
+      "en": "Check channel health (CDP session, WebVPN, anti-bot, rate limits) and report yesterday's success rates"
+    }
+  ],
+  "members": [
+    {
+      "id": "lit-fulltext-team-team-lead",
+      "displayName": {
+        "en": "Qi Quande",
+        "zh": "戚全得"
+      },
+      "profession": {
+        "en": "Full-text Acquisition Director",
+        "zh": "全文获取总监"
+      },
+      "avatar": "avatars/lit-fulltext-team-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "lit-discovery-router",
+      "displayName": {
+        "en": "Zha Xinyue",
+        "zh": "查新月"
+      },
+      "profession": {
+        "en": "Discovery & Routing Specialist",
+        "zh": "检索发现与路由专员"
+      },
+      "avatar": "avatars/lit-discovery-router.png",
+      "role": "member"
+    },
+    {
+      "id": "lit-wanfang-channel",
+      "displayName": {
+        "en": "Wan Detong",
+        "zh": "万得通"
+      },
+      "profession": {
+        "en": "Wanfang Channel Specialist",
+        "zh": "万方通道专员"
+      },
+      "avatar": "avatars/lit-wanfang-channel.png",
+      "role": "member"
+    },
+    {
+      "id": "lit-cnki-channel",
+      "displayName": {
+        "en": "Zhen Zhiyuan",
+        "zh": "甄知源"
+      },
+      "profession": {
+        "en": "CNKI Channel Specialist",
+        "zh": "知网通道专员"
+      },
+      "avatar": "avatars/lit-cnki-channel.png",
+      "role": "member"
+    },
+    {
+      "id": "lit-yiigle-channel",
+      "displayName": {
+        "en": "Hua Zhongming",
+        "zh": "华仲明"
+      },
+      "profession": {
+        "en": "CMA Journal Channel Specialist",
+        "zh": "中华医学期刊通道专员"
+      },
+      "avatar": "avatars/lit-yiigle-channel.png",
+      "role": "member"
+    },
+    {
+      "id": "lit-en-publisher-channel",
+      "displayName": {
+        "en": "Ou Sijie",
+        "zh": "欧思捷"
+      },
+      "profession": {
+        "en": "English Publisher Channel Specialist",
+        "zh": "英文出版社通道专员"
+      },
+      "avatar": "avatars/lit-en-publisher-channel.png",
+      "role": "member"
+    },
+    {
+      "id": "lit-oa-access",
+      "displayName": {
+        "en": "Kang Kaiyuan",
+        "zh": "康开源"
+      },
+      "profession": {
+        "en": "Open Access & Restricted-channel Specialist",
+        "zh": "开放获取与受限通道专员"
+      },
+      "avatar": "avatars/lit-oa-access.png",
+      "role": "member"
+    },
+    {
+      "id": "lit-quality-settlement",
+      "displayName": {
+        "en": "Yan Shouping",
+        "zh": "严守平"
+      },
+      "profession": {
+        "en": "Quality Assurance & Settlement Specialist",
+        "zh": "精度质检与结算专员"
+      },
+      "avatar": "avatars/lit-quality-settlement.png",
+      "role": "member"
+    }
+  ]
+}

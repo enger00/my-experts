@@ -1,0 +1,174 @@
+{
+  "name": "nu2b-title-review-team",
+  "version": "1.0.0",
+  "description": "A 12-department mirror of NU2B professional title review task force for senior title qualification pre-review, performance scoring simulation and policy consultation.",
+  "author": {
+    "name": "易云"
+  },
+  "agents": [
+    "./agents/nu2b-title-review-team-team-lead.md",
+    "./agents/hr-qualification-reviewer.md",
+    "./agents/discipline-inspector.md",
+    "./agents/medical-affairs-assessor.md",
+    "./agents/medical-record-auditor.md",
+    "./agents/conduct-office-supervisor.md",
+    "./agents/academic-teaching-assessor.md",
+    "./agents/research-achievement-assessor.md",
+    "./agents/clinical-trial-verifier.md",
+    "./agents/nursing-performance-assessor.md",
+    "./agents/outpatient-workload-assessor.md",
+    "./agents/infection-control-assessor.md",
+    "./agents/pharmacy-performance-assessor.md"
+  ],
+  "skills": ["./skills/title-review-policy", "./skills/title-review-material-audit"],
+  "expertType": "team",
+  "agentName": "nu2b-title-review-team-team-lead",
+  "teamInfo": {
+    "leadAgent": "nu2b-title-review-team-team-lead",
+    "memberAgents": [
+      "hr-qualification-reviewer",
+      "discipline-inspector",
+      "medical-affairs-assessor",
+      "medical-record-auditor",
+      "conduct-office-supervisor",
+      "academic-teaching-assessor",
+      "research-achievement-assessor",
+      "clinical-trial-verifier",
+      "nursing-performance-assessor",
+      "outpatient-workload-assessor",
+      "infection-control-assessor",
+      "pharmacy-performance-assessor"
+    ]
+  },
+  "displayName": {
+    "en": "Senior Title Review Expert Team",
+    "zh": "高级职称评审专家团"
+  },
+  "profession": {
+    "en": "Senior Title Review Expert Team",
+    "zh": "高级职称评审专家团"
+  },
+  "displayDescription": {
+    "en": "A 12-department expert team mirroring the hospital title review task force for qualification pre-review, performance assessment, scoring simulation and policy consultation.",
+    "zh": "按院字〔2024〕71号镜像医院12部门评聘工作组，做高级职称资格预审、业绩分口审查与评分模拟。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "09-OperationsHR",
+  "defaultInitPrompt": {
+    "zh": "我是卫生系列申报人员，请帮我做一次高级职称申报资格预审",
+    "en": "I am a health-series applicant. Please run a qualification pre-review for my senior title application."
+  },
+  "plugin": "nu2b-title-review-team",
+  "tags": [
+    { "en": "Title Review", "zh": "职称评审" },
+    { "en": "Application Pre-check", "zh": "材料预审" },
+    { "en": "Policy Interpretation", "zh": "政策解读" }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我是卫生系列申报人员，请帮我做一次高级职称申报资格预审",
+      "en": "I am a health-series applicant. Please run a qualification pre-review for my senior title application."
+    },
+    {
+      "zh": "请按12个部门分口审查我的业绩材料，并模拟业绩评分",
+      "en": "Please review my achievement materials department by department and simulate the performance score."
+    },
+    {
+      "zh": "代表作五审、业绩成果三项条件和答辩要求分别是怎么规定的？",
+      "en": "What are the rules for the five-review representative works, the three-achievement threshold and the defense requirement?"
+    }
+  ],
+  "members": [
+    {
+      "id": "nu2b-title-review-team-team-lead",
+      "displayName": { "en": "Shen Duheng", "zh": "沈度衡" },
+      "profession": { "en": "Title Review Task Force Lead", "zh": "职称评聘工作组组长" },
+      "avatar": "avatars/nu2b-title-review-team-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "hr-qualification-reviewer",
+      "displayName": { "en": "Ren Shizhi", "zh": "任适之" },
+      "profession": { "en": "HR Qualification Reviewer", "zh": "人事资格审查专家" },
+      "avatar": "avatars/hr-qualification-reviewer.png",
+      "role": "member"
+    },
+    {
+      "id": "discipline-inspector",
+      "displayName": { "en": "Yan Shouzheng", "zh": "严守正" },
+      "profession": { "en": "Discipline Inspector", "zh": "职称纪检监督专员" },
+      "avatar": "avatars/discipline-inspector.png",
+      "role": "member"
+    },
+    {
+      "id": "medical-affairs-assessor",
+      "displayName": { "en": "Yi Jingcheng", "zh": "易精诚" },
+      "profession": { "en": "Medical Performance Assessor", "zh": "医疗业绩评审专家" },
+      "avatar": "avatars/medical-affairs-assessor.png",
+      "role": "member"
+    },
+    {
+      "id": "medical-record-auditor",
+      "displayName": { "en": "Bian Shenwei", "zh": "卞慎微" },
+      "profession": { "en": "Medical Record Auditor", "zh": "病案质量审计专家" },
+      "avatar": "avatars/medical-record-auditor.png",
+      "role": "member"
+    },
+    {
+      "id": "conduct-office-supervisor",
+      "displayName": { "en": "Xing Qingfeng", "zh": "邢清风" },
+      "profession": { "en": "Conduct Supervisor", "zh": "行风医德监督专员" },
+      "avatar": "avatars/conduct-office-supervisor.png",
+      "role": "member"
+    },
+    {
+      "id": "academic-teaching-assessor",
+      "displayName": { "en": "Jiao Yucai", "zh": "焦育才" },
+      "profession": { "en": "Teaching Performance Assessor", "zh": "教学业绩评审专家" },
+      "avatar": "avatars/academic-teaching-assessor.png",
+      "role": "member"
+    },
+    {
+      "id": "research-achievement-assessor",
+      "displayName": { "en": "Ke Yanshen", "zh": "柯研深" },
+      "profession": { "en": "Research Achievement Assessor", "zh": "科研业绩评审专家" },
+      "avatar": "avatars/research-achievement-assessor.png",
+      "role": "member"
+    },
+    {
+      "id": "clinical-trial-verifier",
+      "displayName": { "en": "Lin Xunzheng", "zh": "林循证" },
+      "profession": { "en": "Clinical Trial Verifier", "zh": "临床试验核验专家" },
+      "avatar": "avatars/clinical-trial-verifier.png",
+      "role": "member"
+    },
+    {
+      "id": "nursing-performance-assessor",
+      "displayName": { "en": "Hu You'an", "zh": "胡佑安" },
+      "profession": { "en": "Nursing Performance Assessor", "zh": "护理业绩评审专家" },
+      "avatar": "avatars/nursing-performance-assessor.png",
+      "role": "member"
+    },
+    {
+      "id": "outpatient-workload-assessor",
+      "displayName": { "en": "Meng Shenzhen", "zh": "蒙慎诊" },
+      "profession": { "en": "Outpatient Workload Assessor", "zh": "门诊业绩评审专员" },
+      "avatar": "avatars/outpatient-workload-assessor.png",
+      "role": "member"
+    },
+    {
+      "id": "infection-control-assessor",
+      "displayName": { "en": "Gan Fangwei", "zh": "甘防微" },
+      "profession": { "en": "Infection Control Assessor", "zh": "院感管理评审专员" },
+      "avatar": "avatars/infection-control-assessor.png",
+      "role": "member"
+    },
+    {
+      "id": "pharmacy-performance-assessor",
+      "displayName": { "en": "Yao Lifang", "zh": "姚理方" },
+      "profession": { "en": "Pharmacy Performance Assessor", "zh": "药学业绩评审专家" },
+      "avatar": "avatars/pharmacy-performance-assessor.png",
+      "role": "member"
+    }
+  ]
+}
